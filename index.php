@@ -3,10 +3,10 @@
     <head>
         <title>Combo-Memo</title>
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="components/platform/platform.css" />
-        <script src="components/platform/platform.js"></script>
-        <script src="components/card/card.js"></script>
-        <link rel="stylesheet" href="components/card/card.css" />
+        <link rel="stylesheet" href="/jogos/combo-memo/components/platform/platform.css" />
+        <script src="/jogos/combo-memo/components/platform/platform.js"></script>
+        <script src="/jogos/combo-memo/components/card/card.js"></script>
+        <link rel="stylesheet" href="/jogos/combo-memo/components/card/card.css" />
     </head>
     <body>
         <header class="menu">
@@ -34,6 +34,5 @@
             <div class="card animar sem-fundo"></div>
             <div class="card animar sem-fundo"></div>
         </div>
-        <script src="script.js"></script>
     </body>
 </html>
