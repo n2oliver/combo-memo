@@ -1,5 +1,6 @@
 
 let counter = 0;
+let erros = 0;
 let ultimaCarta;
 const background = [
     "abelha",
@@ -47,9 +48,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     if(counter == 2 && ultimaCarta && ultimaCarta.style.backgroundImage == event.target.style.backgroundImage) {
                         event.target.dataset.acertou = true;
                         ultimaCarta.dataset.acertou = true;
+                    } else if(counter == 2) {
+                        erros++;
+                        document.getElementById("erros").innerText = erros;
                     }
                 }
             }
         }, false)
     }
+    document.getElementById("btnRestart").addEventListener("click", () => {
+        location.reload(); // ou, se quiser reiniciar sem recarregar: zerar o estado e chamar embaralhar()
+    });
 });

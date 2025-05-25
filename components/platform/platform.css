@@ -8,4 +8,37 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     background-color: white;
+}.menu {
+    background-color: #222;
+    color: white;
+    padding: 4px 0;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.menu h1 {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.menu .botoes {
+    margin-top: 2px;
+}
+
+.menu button {
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    margin: 0 3px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #ec971f;
 }

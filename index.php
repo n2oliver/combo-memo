@@ -9,6 +9,13 @@
         <link rel="stylesheet" href="components/card/card.css" />
     </head>
     <body>
+        <header class="menu">
+            <h1>Combo-Memo</h1>
+            <div class="botoes">
+                <button id="btnRestart">Reiniciar</button>
+            </div>
+            <h3>Erros: <span id="erros">0</span></h3>
+        </header>
         <div class="platform">
             <div class="card animar sem-fundo"></div>
             <div class="card animar sem-fundo"></div>
