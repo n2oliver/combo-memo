@@ -1,5 +1,5 @@
 <?php
-$APP_URL = "/";
+$APP_URL = "/jogos/combo-memo/";
 ?>
 <!DOCTYPE html>
 <html>
