@@ -5,6 +5,7 @@
         <meta charset="UTF-8"/>
         <link rel="stylesheet" href="components/platform/platform.css" />
         <script src="components/platform/platform.js"></script>
+        <script src="components/card/card.js"></script>
         <link rel="stylesheet" href="components/card/card.css" />
     </head>
     <body>
