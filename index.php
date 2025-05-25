@@ -1,12 +1,18 @@
+<?php
+$APP_URL = "/jogos/combo-memo/";
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <title>Combo-Memo</title>
         <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="/jogos/combo-memo/components/platform/platform.css" />
-        <script src="/jogos/combo-memo/components/platform/platform.js"></script>
-        <script src="/jogos/combo-memo/components/card/card.js"></script>
-        <link rel="stylesheet" href="/jogos/combo-memo/components/card/card.css" />
+        <link rel="stylesheet" href="<?= $APP_URL ?>components/platform/platform.css" />
+        <script src="<?= $APP_URL ?>components/platform/platform.js"></script>
+        <script src="<?= $APP_URL ?>components/card/card.js"></script>
+        <link rel="stylesheet" href="<?= $APP_URL ?>components/card/card.css" />
+        <script>
+            APP_URL = "<?= $APP_URL ?>";
+        </script>
     </head>
     <body>
         <header class="menu">
