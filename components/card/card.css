@@ -1,0 +1,16 @@
+.platform .card {
+    background-size: contain;
+    margin: 4px;
+    width: 142px;
+}
+.inverter {
+    animation: inverter 1.5s ease;
+}
+.platform .sem-fundo {
+    background-image: url("/components/card/card.png") !important;
+}
+@keyframes inverter {
+  0%   { transform: scaleX(1); }
+  50%  { transform: scaleX(0); }
+  100% { transform: translateY(1); }
+}

@@ -1,0 +1,11 @@
+body {
+    background-color: slategray;
+}
+.platform {
+    width: 600px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    background-color: white;
+}
