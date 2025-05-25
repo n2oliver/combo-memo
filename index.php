@@ -6,6 +6,8 @@ $APP_URL = "/jogos/combo-memo/";
     <head>
         <title>Combo-Memo</title>
         <meta charset="UTF-8"/>
+        <meta name="9fa1ddb83f9ca206d8f9a68ca7577612ed6a490b" content="9fa1ddb83f9ca206d8f9a68ca7577612ed6a490b" />
+        <meta name="referrer" content="no-referrer-when-downgrade" />
         
         <link rel="preload" href="<?= $APP_URL ?>components/card/card.png" as="image" type="image/png" />
         <link rel="preload" href="<?= $APP_URL ?>components/card/abelha.png" as="image" type="image/png" />
@@ -36,23 +38,31 @@ $APP_URL = "/jogos/combo-memo/";
             </div>
             <h3>Erros: <span id="erros">0</span></h3>
         </header>
-        <div class="platform">
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
-            <div class="card animar sem-fundo"></div>
+        <div style="display: flex; justify-content: space-between">
+            <div style="width: 25vw">
+                <a href="https://hilltopads.com/pt?ref=291186"><img src="//static.hilltopads.com/other/banners/pub/huge_income/600x600.gif?v=1748010101" style="width: 25vw"></a>
+            </div>
+            <div class="platform">
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+                <div class="card animar sem-fundo"></div>
+            </div>
+            <div style="width: 25vw">
+                <a href="https://hilltopads.com/pt?ref=291186"><img src="//static.hilltopads.com/other/banners/pub/huge_income/600x600.gif?v=1748010101" style="width: 25vw"></a>
+            </div>
         </div>
     </body>
 </html>
