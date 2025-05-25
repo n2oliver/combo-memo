@@ -1,3 +1,6 @@
+
+let mensagemAtiva = null;
+let timeoutId = null;
 const comemoracoes = [
     'Parabéns!',
     'Você é um gênio!',
@@ -15,18 +18,30 @@ const comemoracoesFinais = [
     'Parabéns! Você achou todas as combinações!',
 ]
 function comemorar(texto) {
-    // Criar e exibir mensagem central
-    const msg = document.createElement('div');
-    msg.className = 'mensagem-central';
-    msg.innerText = texto + ' 🎉';
-    document.body.appendChild(msg);
+    const animacoes = ['anim-fadeOut', 'anim-slideUp', 'anim-zoomOut'];
+    const animSelecionada = animacoes[Math.floor(Math.random() * animacoes.length)];
 
-    // Remover após 3 segundos
-    setTimeout(() => {
-    msg.remove();
+    // Se já existe, remove classes antigas
+    if (!mensagemAtiva) {
+    mensagemAtiva = document.createElement('div');
+    mensagemAtiva.className = 'mensagem-central';
+    document.body.appendChild(mensagemAtiva);
+    }
+
+    mensagemAtiva.textContent = texto;
+
+    // Resetar classes e forçar reflow
+    mensagemAtiva.classList.remove('anim-fadeOut', 'anim-slideUp', 'anim-zoomOut');
+    void mensagemAtiva.offsetWidth;
+    mensagemAtiva.classList.add(animSelecionada);
+
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+    mensagemAtiva.remove();
+    mensagemAtiva = null;
     }, 3000);
 
-    // Criar confetes
+    // Confetes
     for (let i = 0; i < 60; i++) {
     let confete = document.createElement('div');
     confete.className = 'confete';
@@ -35,10 +50,6 @@ function comemorar(texto) {
     confete.style.background = `hsl(${Math.random() * 360}, 100%, 50%)`;
     confete.style.animationDuration = (Math.random() * 1 + 2) + 's';
     document.body.appendChild(confete);
-
-    // Remover depois de 3 segundos
-    setTimeout(() => {
-        confete.remove();
-    }, 3000);
+    setTimeout(() => confete.remove(), 3000);
     }
 }
