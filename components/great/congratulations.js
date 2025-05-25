@@ -28,7 +28,7 @@ function comemorar(texto) {
     document.body.appendChild(mensagemAtiva);
     }
 
-    mensagemAtiva.textContent = texto;
+    mensagemAtiva.textContent = texto + ' 🎉';
 
     // Resetar classes e forçar reflow
     mensagemAtiva.classList.remove('anim-fadeOut', 'anim-slideUp', 'anim-zoomOut');
@@ -37,9 +37,9 @@ function comemorar(texto) {
 
     clearTimeout(timeoutId);
     timeoutId = setTimeout(() => {
-    mensagemAtiva.remove();
-    mensagemAtiva = null;
-    }, 3000);
+        mensagemAtiva.remove();
+        mensagemAtiva = null;
+    }, 5000);
 
     // Confetes
     for (let i = 0; i < 60; i++) {
