@@ -1,5 +1,5 @@
 <?php
-$APP_URL = "/jogos/combo-memo/";
+$APP_URL = "/";
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,6 +10,8 @@ $APP_URL = "/jogos/combo-memo/";
         <script src="<?= $APP_URL ?>components/platform/platform.js"></script>
         <script src="<?= $APP_URL ?>components/card/card.js"></script>
         <link rel="stylesheet" href="<?= $APP_URL ?>components/card/card.css" />
+        <script src="<?= $APP_URL ?>components/great/congratulations.js"></script>
+        <link rel="stylesheet" href="<?= $APP_URL ?>components/great/congratulations.css" />
         <script>
             APP_URL = "<?= $APP_URL ?>";
         </script>

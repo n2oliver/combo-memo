@@ -2,26 +2,6 @@
 let counter = 0;
 let erros = 0;
 let ultimaCarta;
-const background = [
-    "abelha",
-    "abelha",
-    "coruja",
-    "coruja",
-    "elefante",
-    "elefante",
-    "golfinho",
-    "golfinho",
-    "koala",
-    "koala",
-    "macaco",
-    "macaco",
-    "pinguim",
-    "pinguim",
-    "tartaruga",
-    "tartaruga",
-    "serpente",
-    "serpente"
-]
 document.addEventListener("DOMContentLoaded", function () {
     console.log("DOM completamente carregado e analisado");
     embaralhar();
@@ -48,6 +28,14 @@ document.addEventListener("DOMContentLoaded", function () {
                     if(counter == 2 && ultimaCarta && ultimaCarta.style.backgroundImage == event.target.style.backgroundImage) {
                         event.target.dataset.acertou = true;
                         ultimaCarta.dataset.acertou = true;
+                        
+                        const comemoracao = comemoracoes.sort(() => Math.random() - 0.5);
+                        comemorar(comemoracao[0]);
+
+                        if(document.querySelectorAll("[data-acertou=true]").length == 16) {
+                            const comemoracaoFinal = comemoracoesFinais.sort(() => Math.random() - 0.5);
+                            comemorar(comemoracaoFinal[0]);
+                        }
                     } else if(counter == 2) {
                         erros++;
                         document.getElementById("erros").innerText = erros;

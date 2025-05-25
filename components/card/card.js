@@ -1,16 +1,26 @@
 
+const background = {
+    0: "abelha",
+    1: "coruja",
+    2: "elefante",
+    3: "golfinho",
+    4: "koala",
+    5: "macaco",
+    6: "pinguim",
+    7: "tartaruga",
+}
 function virarCarta(target) {
     target.classList.remove("inverter");
     target.classList.add("inverter");
     setTimeout(()=>{
         target.classList.remove("sem-fundo");
-    }, 800);
+    }, 300);
 }
 function esconderCarta(target) {
     target.classList.remove("inverter");
     setTimeout(()=>{
         target.classList.add("sem-fundo");
-    }, 800);
+    }, 300);
 
     ultimaCarta = null;
 }
@@ -27,7 +37,7 @@ function embaralhar() {
     let arr = [];
 
     // Cria dois de cada número
-    for (let i = 1; i <= 8; i++) {
+    for (let i = 0; i < 8; i++) {
         arr.push(i);
         arr.push(i);
     }
