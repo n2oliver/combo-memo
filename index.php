@@ -6,6 +6,18 @@ $APP_URL = "/jogos/combo-memo/";
     <head>
         <title>Combo-Memo</title>
         <meta charset="UTF-8"/>
+        
+        <link rel="preload" href="<?= $APP_URL ?>components/card/card.png" as="image" type="image/png" />
+        <link rel="preload" href="<?= $APP_URL ?>components/card/abelha.png" as="image" type="image/png" />
+        <link rel="preload" href="<?= $APP_URL ?>components/card/coruja.png" as="image" type="image/png" />
+        <link rel="preload" href="<?= $APP_URL ?>components/card/elefante.png" as="image" type="image/png" />
+        <link rel="preload" href="<?= $APP_URL ?>components/card/golfinho.png" as="image" type="image/png" />
+        <link rel="preload" href="<?= $APP_URL ?>components/card/koala.png" as="image" type="image/png" />
+        <link rel="preload" href="<?= $APP_URL ?>components/card/macaco.png" as="image" type="image/png" />
+        <link rel="preload" href="<?= $APP_URL ?>components/card/pinguim.png" as="image" type="image/png" />
+        <link rel="preload" href="<?= $APP_URL ?>components/card/tartaruga.png" as="image" type="image/png" />
+        
+        
         <link rel="stylesheet" href="<?= $APP_URL ?>components/platform/platform.css" />
         <script src="<?= $APP_URL ?>components/platform/platform.js"></script>
         <script src="<?= $APP_URL ?>components/card/card.js"></script>

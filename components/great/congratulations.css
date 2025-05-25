@@ -1,7 +1,7 @@
 
     .mensagem-central {
       position: fixed;
-      top: 50%;
+      top: 20%;
       left: 50%;
       transform: translate(-50%, -50%);
       background: rgba(0, 255, 0, 0.5);
