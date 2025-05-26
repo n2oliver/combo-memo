@@ -18,12 +18,11 @@ $APP_URL = "/jogos/combo-memo/";
         <link rel="preload" href="<?= $APP_URL ?>components/card/macaco.png" as="image" type="image/png" />
         <link rel="preload" href="<?= $APP_URL ?>components/card/pinguim.png" as="image" type="image/png" />
         <link rel="preload" href="<?= $APP_URL ?>components/card/tartaruga.png" as="image" type="image/png" />
-        
-        
+                
         <link rel="stylesheet" href="<?= $APP_URL ?>components/platform/platform.css" />
         <script src="<?= $APP_URL ?>components/platform/platform.js"></script>
-        <script src="<?= $APP_URL ?>components/card/card.js"></script>
         <link rel="stylesheet" href="<?= $APP_URL ?>components/card/card.css" />
+        <script src="<?= $APP_URL ?>components/card/card.js"></script>
         <script src="<?= $APP_URL ?>components/great/congratulations.js"></script>
         <link rel="stylesheet" href="<?= $APP_URL ?>components/great/congratulations.css" />
         <script>
@@ -36,11 +35,11 @@ $APP_URL = "/jogos/combo-memo/";
             <div class="botoes">
                 <button id="btnRestart">Reiniciar</button>
             </div>
-            <h3>Erros: <span id="erros">0</span></h3>
+            <h3><span style="color: lightgreen">Pontuação máxima:</span> <span id="high-score">0</span>% de acertos | <span style="color: pink">Erros:</span> <span id="erros">0</span></h3>
         </header>
         <div style="display: flex; justify-content: space-between">
             <div style="width: 25vw">
-                <a href="https://hilltopads.com/pt?ref=291186"><img src="//static.hilltopads.com/other/banners/pub/huge_income/600x600.gif?v=1748010101" style="width: 25vw"></a>
+                <!-- <a href="https://hilltopads.com/pt?ref=291186"><img src="//static.hilltopads.com/other/banners/pub/huge_income/600x600.gif?v=1748010101" style="width: 25vw"></a> -->
             </div>
             <div class="platform">
                 <div class="card animar sem-fundo"></div>
@@ -61,7 +60,7 @@ $APP_URL = "/jogos/combo-memo/";
                 <div class="card animar sem-fundo"></div>
             </div>
             <div style="width: 25vw">
-                <a href="https://hilltopads.com/pt?ref=291186"><img src="//static.hilltopads.com/other/banners/pub/huge_income/600x600.gif?v=1748010101" style="width: 25vw"></a>
+                <!-- <a href="https://hilltopads.com/pt?ref=291186"><img src="//static.hilltopads.com/other/banners/pub/huge_income/600x600.gif?v=1748010101" style="width: 25vw"></a> -->
             </div>
         </div>
     </body>

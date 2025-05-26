@@ -1,9 +1,14 @@
 
 let counter = 0;
+let acertos = 0;
 let erros = 0;
 let ultimaCarta;
+let percentual = 0;
+
 document.addEventListener("DOMContentLoaded", function () {
     console.log("DOM completamente carregado e analisado");
+
+    document.getElementById("high-score").innerText = localStorage.combo_memo_high_score || percentual;
     embaralhar();
     for(let card of document.querySelectorAll(".card")){
         card.addEventListener("click", (event) => {
@@ -18,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if(event.target.dataset.oculto == false) {
                     event.target.dataset.oculto = true;
                     esconderCarta(event.target);
-                } else {
+                } else if(event.target.classList.contains("sem-fundo")) {
                     event.target.dataset.oculto = false;
                     virarCarta(event.target);
 
@@ -26,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         ultimaCarta = event.target;
                     }
                     if(counter == 2 && ultimaCarta && ultimaCarta.style.backgroundImage == event.target.style.backgroundImage) {
+                        acertos++;
                         event.target.dataset.acertou = true;
                         ultimaCarta.dataset.acertou = true;
                         
@@ -34,7 +40,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
                         if(document.querySelectorAll("[data-acertou=true]").length == 16) {
                             const comemoracaoFinal = comemoracoesFinais.sort(() => Math.random() - 0.5);
-                            comemorar(comemoracaoFinal[0]);
+
+                            percentual = (acertos/(erros+acertos)*100).toFixed(2);
+                            if(!localStorage.combo_memo_high_score || percentual > localStorage.combo_memo_high_score) {
+                                localStorage.setItem("combo_memo_high_score", percentual);
+                                document.getElementById("high-score").innerText = percentual;
+                            }
+                            setTimeout(()=>{
+                                comemorar(comemoracaoFinal[0]);
+                                setTimeout(()=>{
+                                    comemorar("Sua pontuação final foi de " + percentual + "%");
+                                }, 5000);
+                            }, 5000);
+                            
                         }
                     } else if(counter == 2) {
                         erros++;
