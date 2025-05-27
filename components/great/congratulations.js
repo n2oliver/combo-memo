@@ -38,7 +38,7 @@ function comemorar(texto) {
 
     clearTimeout(timeoutId);
     timeoutId = setTimeout(() => {
-        mensagemAtiva.remove();
+        // mensagemAtiva.remove();
         mensagemAtiva = null;
     }, 5000);
 

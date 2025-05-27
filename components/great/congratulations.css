@@ -5,17 +5,18 @@
       left: 50%;
       transform: translate(-50%, -50%);
       background: rgba(0, 255, 0, 0.5);
-      -webkit-text-stroke: 2px #000;
+      -webkit-text-stroke: 1px #fff;
       padding: 20px 40px;
       border-radius: 12px;
       font-size: 2em;
       font-weight: 700;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      color: #fff;
+      font-family: Candara;
+      color: #ff0;
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
       z-index: 9999;
       pointer-events: none;
       text-align: center;
+      outline: #fff solid
     }
 
     /* Animações variadas */
