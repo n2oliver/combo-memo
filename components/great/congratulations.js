@@ -60,6 +60,7 @@ function comemorar(texto) {
         tagScript.dataset.cfasync=false;
         document.head.appendChild(tagScript);
         ads = 1;
+        window.lintrk('track', { conversion_id: 19905300 });
     }
     setTimeout(() => confete.remove(), 3000);
     setTimeout(() => tagScript.remove(), 10000);
