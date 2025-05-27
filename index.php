@@ -19,13 +19,17 @@ $APP_URL = "/jogos/combo-memo/";
         <link rel="preload" href="<?= $APP_URL ?>components/card/pinguim.png" as="image" type="image/png" />
         <link rel="preload" href="<?= $APP_URL ?>components/card/tartaruga.png" as="image" type="image/png" />
         <link rel="preload" href="<?= $APP_URL ?>components/platform/wood.jpg" as="image" type="image/png" />
-                
+        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/styles-index.css" />
         <link rel="stylesheet" href="<?= $APP_URL ?>components/platform/platform.css" />
         <script src="<?= $APP_URL ?>components/platform/platform.js"></script>
         <link rel="stylesheet" href="<?= $APP_URL ?>components/card/card.css" />
         <script src="<?= $APP_URL ?>components/card/card.js"></script>
         <script src="<?= $APP_URL ?>components/great/congratulations.js"></script>
         <link rel="stylesheet" href="<?= $APP_URL ?>components/great/congratulations.css" />
+        
+
         <script>
             APP_URL = "<?= $APP_URL ?>";
         </script>
@@ -61,8 +65,10 @@ $APP_URL = "/jogos/combo-memo/";
                 <div class="card animar sem-fundo"></div>
             </div>
             <div style="width: 25vw">
-                <!-- <a href="https://hilltopads.com/pt?ref=291186"><img src="//static.hilltopads.com/other/banners/pub/huge_income/600x600.gif?v=1748010101" style="width: 25vw"></a> -->
             </div>
         </div>
+        <?php
+        include("../../footer.php");
+        ?>
     </body>
 </html>
