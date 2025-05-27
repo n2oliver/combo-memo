@@ -1,5 +1,5 @@
 body {
-    background-color: slategray;
+    background-image: url("/jogos/combo-memo/components/platform/wood.png");
     margin: 0 auto;
 }
 .platform {
@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 0 auto;
-    background-color: white;
+    background-color: transparent;
 }
 .menu {
     background-color: #222;
