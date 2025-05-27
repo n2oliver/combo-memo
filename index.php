@@ -18,6 +18,7 @@ $APP_URL = "/jogos/combo-memo/";
         <link rel="preload" href="<?= $APP_URL ?>components/card/macaco.png" as="image" type="image/png" />
         <link rel="preload" href="<?= $APP_URL ?>components/card/pinguim.png" as="image" type="image/png" />
         <link rel="preload" href="<?= $APP_URL ?>components/card/tartaruga.png" as="image" type="image/png" />
+        <link rel="preload" href="<?= $APP_URL ?>components/platform/wood.jpg" as="image" type="image/png" />
                 
         <link rel="stylesheet" href="<?= $APP_URL ?>components/platform/platform.css" />
         <script src="<?= $APP_URL ?>components/platform/platform.js"></script>

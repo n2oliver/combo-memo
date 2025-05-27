@@ -1,6 +1,7 @@
 body {
-    background-image: url("/jogos/combo-memo/components/platform/wood.png");
+    background-image: url("/jogos/combo-memo/components/platform/wood.jpg");
     margin: 0 auto;
+    background-size: contain;
 }
 .platform {
     width: 600px;
