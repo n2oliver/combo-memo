@@ -1,6 +1,7 @@
 
 let counter = 0;
 let acertos = 0;
+let acerto = 0;
 let erros = 0;
 let ultimaCarta;
 let percentual = 0;
@@ -32,6 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     }
                     if(counter == 2 && ultimaCarta && ultimaCarta.style.backgroundImage == event.target.style.backgroundImage) {
                         acertos++;
+                        acerto = (acertos/(erros+acertos)*100).toFixed(2);
+                        document.getElementById("acerto").innerText = acerto;
+
                         event.target.dataset.acertou = true;
                         ultimaCarta.dataset.acertou = true;
                         
