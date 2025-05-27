@@ -1,7 +1,5 @@
 body {
-    background-image: url("/jogos/combo-memo/components/platform/wood.jpg");
     margin: 0 auto;
-    background-size: contain;
 }
 .platform {
     width: 600px;
@@ -47,4 +45,12 @@ body {
 
 .menu button:hover {
     background-color: #ec971f;
+}
+.mesa {
+    background-image: url("/jogos/combo-memo/components/platform/wood.jpg");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: space-between
 }

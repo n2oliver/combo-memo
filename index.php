@@ -44,7 +44,7 @@ $APP_URL = "/jogos/combo-memo/";
             </div>
             <h3><span style="color: lightgreen">Pontuação máxima:</span> <span id="high-score">0</span>% de acertos | <span style="color: lightgreen">Acerto:</span> <span id="acerto">0</span>% <span style="color: pink"> | Erros:</span> <span id="erros">0</span></h3>
         </header>
-        <div style="display: flex; justify-content: space-between">
+        <div class="mesa">
             <div style="width: 25vw">
                 <!-- <a href="https://hilltopads.com/pt?ref=291186"><img src="//static.hilltopads.com/other/banners/pub/huge_income/600x600.gif?v=1748010101" style="width: 25vw"></a> -->
             </div>
