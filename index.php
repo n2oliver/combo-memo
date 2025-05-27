@@ -4,6 +4,8 @@ $APP_URL = "/jogos/combo-memo/";
 <!DOCTYPE html>
 <html>
     <head>
+
+        <link rel="icon" type="image/x-icon" href="<?= $APP_URL ?>components/card/coruja.png">
         <title>Combo-Memo</title>
         <meta charset="UTF-8"/>
         <meta name="9fa1ddb83f9ca206d8f9a68ca7577612ed6a490b" content="9fa1ddb83f9ca206d8f9a68ca7577612ed6a490b" />
