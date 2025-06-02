@@ -1,7 +1,6 @@
 
 let mensagemAtiva = null;
 let timeoutId = null;
-let ads = 0;
 const comemoracoes = [
     'Parabéns!',
     'Você é um gênio!',
@@ -51,18 +50,6 @@ function comemorar(texto) {
     confete.style.background = `hsl(${Math.random() * 360}, 100%, 50%)`;
     confete.style.animationDuration = (Math.random() * 1 + 2) + 's';
     document.body.appendChild(confete);
-
-    if(ads == 0) {
-        const tagScript = document.createElement('script');
-        tagScript.src = "https://fpyf8.com/88/tag.min.js";
-        tagScript.dataset.zone = 149213;
-        tagScript.async = true;
-        tagScript.dataset.cfasync=false;
-        document.head.appendChild(tagScript);
-        ads = 1;
-        window.lintrk('track', { conversion_id: 19905300 });
-    }
     setTimeout(() => confete.remove(), 3000);
-    setTimeout(() => tagScript.remove(), 10000);
     }
 }

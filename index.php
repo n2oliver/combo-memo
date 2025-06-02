@@ -72,6 +72,6 @@ $APP_URL = "/jogos/combo-memo/";
         <?php
         include("../../footer.php");
         ?>
-        <script>(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',9394159,document.createElement('script'))</script>
+        <script src="https://pertawee.net/act/files/tag.min.js?z=9394153" data-cfasync="false" async></script>
     </body>
 </html>
