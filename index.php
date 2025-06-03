@@ -45,10 +45,41 @@ $APP_URL = "/jogos/combo-memo/";
             <h3><span style="color: lightgreen">Pontuação máxima:</span> <span id="high-score">0</span>% de acertos | <span style="color: lightgreen">Acerto:</span> <span id="acerto">0</span>% <span style="color: pink"> | Erros:</span> <span id="erros">0</span></h3>
         </header>
         <div class="mesa">
-            <div style="width: 25vw">
-                <!-- <a href="https://hilltopads.com/pt?ref=291186"><img src="//static.hilltopads.com/other/banners/pub/huge_income/600x600.gif?v=1748010101" style="width: 25vw"></a> -->
+            <div class="col-sm-12">
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
             </div>
-            <div class="platform">
+            <div class="platform col-sm-12">
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
@@ -66,12 +97,43 @@ $APP_URL = "/jogos/combo-memo/";
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
             </div>
-            <div style="width: 25vw">
+            <div class="col-sm-12">
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
             </div>
         </div>
         <?php
         include("../../footer.php");
         ?>
-        <script src="https://pertawee.net/act/files/tag.min.js?z=9394153" data-cfasync="false" async></script>
     </body>
 </html>
