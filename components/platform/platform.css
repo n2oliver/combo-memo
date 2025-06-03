@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    width: fit-content;
 }
 .platform {
     width: 600px;
