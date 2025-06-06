@@ -25,15 +25,21 @@ body {
 }
 
 .menu h1 {
-    margin: 0;
-    font-size: 1.2em;
-    font-weight: normal;
+  font-family: 'Montserrat';
+  color: #FFD43B; /* azul escuro */
+  text-align: center;
+  text-shadow: 2px 2px 0px #243E66; /* sombra amarela simulando contorno */
+  margin: 0 !important;
 }
 
 .menu .botoes {
     margin-top: 2px;
+    margin-left: 14px;
+    margin-right: 14px;
 }
-
+.menu h3 {
+    margin: 0;
+}
 .menu button {
     background-color: #f0ad4e;
     color: white;

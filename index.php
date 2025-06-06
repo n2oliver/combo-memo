@@ -38,9 +38,11 @@ $APP_URL = "/jogos/combo-memo/";
     </head>
     <body>
         <header class="menu">
-            <h1>Combo-Memo</h1>
-            <div class="botoes">
-                <button id="btnRestart">Reiniciar</button>
+            <div class="d-flex row align-content-center">
+                <h1>COMBO-MEMO</h1>
+                <div class="botoes">
+                    <button id="btnRestart">Reiniciar</button>
+                </div>
             </div>
             <h3><span style="color: lightgreen">Pontuação máxima:</span> <span id="high-score">0</span>% de acertos | <span style="color: lightgreen">Acerto:</span> <span id="acerto">0</span>% <span style="color: pink"> | Erros:</span> <span id="erros">0</span></h3>
         </header>
