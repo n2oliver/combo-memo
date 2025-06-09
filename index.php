@@ -62,12 +62,12 @@
   </style>
 </head>
 <body>
-  <header>
+  <header class="p-3">
     <img src="/jogos/combo-memo/components/card/coruja.png" alt="Logo Combo-Memo">
     <h1>Combo-Memo</h1>
   </header>
-    <main class="container m-auto">
-  <p>Teste sua memória e tente fazer o maior combo possível! Combine as cartas no menor tempo para ganhar pontos extras.</p>
+    <main class="container m-auto p-2">
+  <p>Teste sua memória e tente fazer o maior combo possível! Combine as cartas com o mínimo de erros para ganhar pontos extras.</p>
 
   <a href="/jogos/combo-memo/jogo.php" class="btn">Jogar Agora</a>
   </main>
