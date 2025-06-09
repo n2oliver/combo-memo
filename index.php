@@ -54,6 +54,7 @@
     footer {
       margin-top: 3rem;
       font-size: 0.9rem;
+      max-width: 600px;
     }
     .container {
         background-color: darkslategrey;
@@ -63,8 +64,8 @@
 </head>
 <body>
   <header class="p-3">
-    <img src="/jogos/combo-memo/components/card/coruja.png" alt="Logo Combo-Memo">
     <h1>Combo-Memo</h1>
+    <img src="/jogos/combo-memo/components/card/coruja.png" alt="Logo Combo-Memo">
   </header>
     <main class="container m-auto p-2">
   <p class="m-auto">Teste sua memória e tente fazer o maior combo possível! Combine as cartas com o mínimo de erros para ganhar pontos extras.</p>

@@ -35,6 +35,11 @@ $APP_URL = "/jogos/combo-memo/";
         <script>
             APP_URL = "<?= $APP_URL ?>";
         </script>
+        <style>
+            footer {
+                width: 1320px;
+            }
+        </style>
     </head>
     <body>
         <header class="menu">
