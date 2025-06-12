@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../styles-index.css">
+    <link rel="stylesheet" href="../../styles-index.css">
   <style>
     body {
       font-family: sans-serif;
@@ -33,6 +33,7 @@
 
       color: white !important;
       -webkit-text-stroke: 1px #000;
+      background-color: saddlebrown;
     }
     p {
       font-size: 1.4rem;
@@ -63,6 +64,14 @@
   </style>
 </head>
 <body>
+    <?php include('../../navbar.php'); ?>
+    <script>
+      const nav = document.querySelector('nav')
+      nav.classList.add('col-md-6');
+      nav.classList.add('m-auto');
+      nav.classList.add('px-2');
+      nav.style.fontSize = '12px';
+    </script>
   <header class="p-3">
     <h1>Combo-Memo</h1>
     <img src="/jogos/combo-memo/components/card/coruja.png" alt="Logo Combo-Memo">
@@ -72,6 +81,12 @@
 
   <a href="/jogos/combo-memo/jogo.php" class="btn">Jogar Agora</a>
   </main>
-  <?php include("../../noads-footer.php"); ?>
+  <?php include("../../footer.php"); ?>
+    <script>
+      const footer = document.querySelector('footer')
+      footer.classList.add('col-md-6');
+      footer.classList.add('m-auto');
+      footer.classList.add('px-0');
+    </script>
 </body>
 </html>
