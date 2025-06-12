@@ -67,7 +67,7 @@
     <?php include('../../navbar.php'); ?>
     <script>
       const nav = document.querySelector('nav')
-      nav.classList.add('col-md-6');
+      nav.classList.add('col-md-8');
       nav.classList.add('m-auto');
       nav.classList.add('px-2');
       nav.style.fontSize = '12px';
@@ -79,12 +79,12 @@
     <main class="container m-auto p-2">
   <p class="m-auto">Teste sua memória e tente fazer o maior combo possível! Combine as cartas com o mínimo de erros para ganhar pontos extras.</p>
 
-  <a href="/jogos/combo-memo/jogo.php" class="btn">Jogar Agora</a>
+  <a href="/jogos/combo-memo/jogo.php" class="btn btn-warning">Jogar Agora</a>
   </main>
   <?php include("../../footer.php"); ?>
     <script>
       const footer = document.querySelector('footer')
-      footer.classList.add('col-md-6');
+      footer.classList.add('col-md-8');
       footer.classList.add('m-auto');
       footer.classList.add('px-0');
     </script>
