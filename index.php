@@ -107,14 +107,14 @@
           event.target.src=`<?=$APP_URL?>/components/card/${background[imageIndex]}.png`;
           imageIndex++;
           if(imageIndex > 7) imageIndex = 0;
-        }, 300);
+        }, 150);
         setTimeout(()=>{
           event.target.classList.remove('inverter');
           setTimeout(()=>{
             event.target.classList.add('sem-fundo');
             event.target.src='<?=$APP_URL?>/components/card/card.png';
             event.target.onclick = (target)=>virar(target);
-          }, 300);
+          }, 150);
         }, 3000)
       }
     </script>
