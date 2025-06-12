@@ -1,3 +1,4 @@
+<?php $APP_URL = '/jogos/combo-memo'; ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -62,6 +63,8 @@
         width: fit-content;
     }
   </style>
+  <link rel="stylesheet" href="<?= $APP_URL ?>/components/card/card.css">
+  <script src="<?= $APP_URL ?>/components/card/card.js"></script>
 </head>
 <body>
     <?php include('../../navbar.php'); ?>
@@ -72,9 +75,15 @@
       nav.classList.add('px-2');
       nav.style.fontSize = '12px';
     </script>
-  <header class="p-3">
+    <script>
+      let imageIndex = 0;
+    </script>
+  <header class="p-3 platform">
     <h1>Combo-Memo</h1>
-    <img src="/jogos/combo-memo/components/card/coruja.png" alt="Logo Combo-Memo">
+    <div class="d-flex justify-content-center">
+      <img onclick="virar(event)" src="/jogos/combo-memo/components/card/card.png" alt="Combo-Memo" class="card animar sem-fundo" id="card"/>
+      <img onclick="virar(event)" src="/jogos/combo-memo/components/card/card.png" alt="Combo-Memo" class="card animar sem-fundo" id="card"/>
+    </div>
   </header>
     <main class="container m-auto p-2">
   <p class="m-auto">Teste sua memória e tente fazer o maior combo possível! Combine as cartas com o mínimo de erros para ganhar pontos extras.</p>
@@ -87,6 +96,27 @@
       footer.classList.add('col-md-8');
       footer.classList.add('m-auto');
       footer.classList.add('px-0');
+    </script>
+    <script>
+      const virar = (event) => {
+        event.target.onclick = (event) => {};
+        event.target.classList.remove('inverter');
+        event.target.classList.add('inverter');
+        setTimeout(()=>{
+          event.target.classList.remove('sem-fundo');
+          event.target.src=`<?=$APP_URL?>/components/card/${background[imageIndex]}.png`;
+          imageIndex++;
+          if(imageIndex > 7) imageIndex = 0;
+        }, 300);
+        setTimeout(()=>{
+          event.target.classList.remove('inverter');
+          setTimeout(()=>{
+            event.target.classList.add('sem-fundo');
+            event.target.src='<?=$APP_URL?>/components/card/card.png';
+            event.target.onclick = (target)=>virar(target);
+          }, 300);
+        }, 3000)
+      }
     </script>
 </body>
 </html>
