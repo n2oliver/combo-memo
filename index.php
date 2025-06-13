@@ -19,7 +19,10 @@
       font-family: 'Montserrat';
     }
     header {
-      background-color: darkslateblue;
+      background-image: url(<?= $APP_URL ?>/components/platform/wood.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
       border-radius: 6px;
       margin: 1rem auto;
       padding: 14px;
@@ -31,10 +34,9 @@
     h1 {
       font-size: 2rem;
       margin-top: 1rem;
-
-      color: white !important;
+      color: beige !important;
       -webkit-text-stroke: 1px #000;
-      background-color: saddlebrown;
+      background-color: darkslategray;
     }
     p {
       font-size: 1.4rem;
