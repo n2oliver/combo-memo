@@ -11,16 +11,16 @@ $APP_URL = "/jogos/combo-memo/";
         <meta name="9fa1ddb83f9ca206d8f9a68ca7577612ed6a490b" content="9fa1ddb83f9ca206d8f9a68ca7577612ed6a490b" />
         <meta name="referrer" content="no-referrer-when-downgrade" />
         
-        <link rel="preload" href="<?= $APP_URL ?>components/card/card.png" as="image" type="image/png" />
-        <link rel="preload" href="<?= $APP_URL ?>components/card/abelha.png" as="image" type="image/png" />
-        <link rel="preload" href="<?= $APP_URL ?>components/card/coruja.png" as="image" type="image/png" />
-        <link rel="preload" href="<?= $APP_URL ?>components/card/elefante.png" as="image" type="image/png" />
-        <link rel="preload" href="<?= $APP_URL ?>components/card/golfinho.png" as="image" type="image/png" />
-        <link rel="preload" href="<?= $APP_URL ?>components/card/koala.png" as="image" type="image/png" />
-        <link rel="preload" href="<?= $APP_URL ?>components/card/macaco.png" as="image" type="image/png" />
-        <link rel="preload" href="<?= $APP_URL ?>components/card/pinguim.png" as="image" type="image/png" />
-        <link rel="preload" href="<?= $APP_URL ?>components/card/tartaruga.png" as="image" type="image/png" />
-        <link rel="preload" href="<?= $APP_URL ?>components/platform/wood.jpg" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/card/card.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/card/abelha.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/card/coruja.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/card/elefante.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/card/golfinho.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/card/koala.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/card/macaco.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/card/pinguim.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/card/tartaruga.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>components/platform/wood.jpg" as="image" type="image/png" />
         
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/styles-index.css" />

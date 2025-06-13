@@ -5,6 +5,17 @@
   <meta charset="UTF-8">
   <title>Combo-Memo - Jogo da Memória</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/card.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/abelha.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/coruja.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/elefante.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/golfinho.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/koala.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/macaco.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/pinguim.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/tartaruga.png" as="image" type="image/png" />
+        <link rel="prefetch" href="<?= $APP_URL ?>/components/platform/wood.jpg" as="image" type="image/png" />
+
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../styles-index.css">
