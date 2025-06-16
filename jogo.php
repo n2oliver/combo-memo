@@ -36,6 +36,10 @@ $APP_URL = "/jogos/combo-memo/";
             APP_URL = "<?= $APP_URL ?>";
         </script>
         <style>
+            body {
+                background-image: linear-gradient(black, darkslategrey, black);
+                background-size: cover;
+            }
             footer {
                 width: 1320px;
             }

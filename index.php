@@ -28,6 +28,7 @@
       padding: 2rem;
       font-size: 1.4rem;
       font-family: 'Montserrat';
+      background-position: center;
     }
     header {
       background-image: url(<?= $APP_URL ?>/components/platform/wood.jpg);
