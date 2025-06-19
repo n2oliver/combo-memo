@@ -21,11 +21,11 @@ body {
     position: sticky;
     top: 0px;
     z-index: 10;
-    width: 100%;
+    width: 1320px;
 }
 
 .menu h1 {
-  font-family: 'Montserrat';
+  font-family: 'Ubuntu';
   color: #FFD43B; /* azul escuro */
   text-align: center;
   text-shadow: 2px 2px 0px #243E66; /* sombra amarela simulando contorno */
@@ -62,5 +62,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 1320px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
