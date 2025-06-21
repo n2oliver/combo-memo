@@ -30,3 +30,40 @@ Jogue agora: [Combo-Memo Online](https://oliver.liveblog365.com/jogos/combo-memo
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/combo-memo.git
+````
+
+2. Hospede os arquivos num servidor local (Apache, XAMPP, etc.).
+3. Acesse o jogo via navegador:
+
+   ```
+   http://localhost/caminho-para-o-projeto/jogo.php
+   ```
+
+## 📁 Estrutura do Projeto
+
+```
+combo-memo/
+├── components/
+│   ├── card/                # Imagens e lógica das cartas
+│   ├── platform/            # Tabuleiro
+│   └── great/               # Mensagens de comemoração
+├── styles-index.css         # Estilos gerais
+├── jogo.php                 # Arquivo principal
+└── sobre-mim.css            # Estilo complementar
+```
+
+## 📌 TODO
+
+* ✅ Sistema de pontuação
+* ✅ Animações comemorativas
+* 🔜 Níveis de dificuldade
+* 🔜 Modo multiplayer
+* 🔜 Sons e trilha sonora
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e distribuir.
+
+---
+
+Desenvolvido com ❤️ por [Óliver Silva Castilho](https://oliver.liveblog365.com)
