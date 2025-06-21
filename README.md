@@ -36,19 +36,18 @@ Jogue agora: [Combo-Memo Online](https://oliver.liveblog365.com/jogos/combo-memo
 
    ```
    http://localhost/caminho-para-o-projeto/jogo.php
-   ```
 
 ## 📁 Estrutura do Projeto
 
-```
-combo-memo/
-├── components/
-│   ├── card/                # Imagens e lógica das cartas
-│   ├── platform/            # Tabuleiro
-│   └── great/               # Mensagens de comemoração
-├── styles-index.css         # Estilos gerais
-├── jogo.php                 # Arquivo principal
-└── sobre-mim.css            # Estilo complementar
+   ```
+   combo-memo/
+   ├── components/
+   │   ├── card/                # Imagens e lógica das cartas
+   │   ├── platform/            # Tabuleiro
+   │   └── great/               # Mensagens de comemoração
+   ├── styles-index.css         # Estilos gerais
+   ├── jogo.php                 # Arquivo principal
+   └── sobre-mim.css            # Estilo complementar
 
 ## 📌 TODO
 
