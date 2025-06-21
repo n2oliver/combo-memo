@@ -30,7 +30,6 @@ Jogue agora: [Combo-Memo Online](https://oliver.liveblog365.com/jogos/combo-memo
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/combo-memo.git
-````
 
 2. Hospede os arquivos num servidor local (Apache, XAMPP, etc.).
 3. Acesse o jogo via navegador:
@@ -50,7 +49,6 @@ combo-memo/
 ├── styles-index.css         # Estilos gerais
 ├── jogo.php                 # Arquivo principal
 └── sobre-mim.css            # Estilo complementar
-```
 
 ## 📌 TODO
 
