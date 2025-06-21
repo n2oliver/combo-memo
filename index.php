@@ -30,12 +30,13 @@
     body {
       font-family: sans-serif;
       margin: 0;
-      background-image: url(/img/combo-memo.png);
+      background-image: url(<?= $APP_URL ?>/bg-combo-memo.png);
       text-align: center;
       padding: 2rem;
       font-size: 1.4rem;
       font-family: 'Ubuntu';
       background-position: center;
+      background-attachment: fixed;
     }
     header {
       background-image: url(<?= $APP_URL ?>/components/platform/wood.jpg);
@@ -46,6 +47,7 @@
       margin: 1rem auto;
       padding: 14px;
       max-width: 600px;
+      border: 1px solid white;
     }
     header img {
       max-width: 200px;
@@ -53,8 +55,9 @@
     h1 {
       font-size: 2rem;
       margin-top: 1rem;
-      color: beige !important;
-      -webkit-text-stroke: 1px #000;
+      color: yellow !important;
+      -webkit-text-stroke: 2px orange;
+      filter: drop-shadow(0 0 .2rem yellow);
       background-color: darkslategray;
     }
     p {
@@ -82,6 +85,8 @@
     .container {
         background-color: darkslategrey;
         width: fit-content;
+        border: 1px solid white;
+        margin-bottom: 20px !important;
     }
   </style>
   <link rel="stylesheet" href="<?= $APP_URL ?>/components/card/card.css">
