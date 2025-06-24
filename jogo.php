@@ -59,39 +59,38 @@ $APP_URL = "/jogos/combo-memo/";
             <h3><span style="color: lightgreen">Pontuação máxima:</span> <span id="high-score">0</span>% de acertos | <span style="color: lightgreen">Acerto:</span> <span id="acerto">0</span>% <span style="color: pink"> | Erros:</span> <span id="erros">0</span></h3>
         </header>
         <div class="mesa">
-            <div class="col-sm-12">
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+            <div class="col-sm-12"><script type="text/javascript">
+                atOptions = {
+                    'key' : 'b5463c03cd36f2b207d3e311906ba716',
+                    'format' : 'iframe',
+                    'height' : 250,
+                    'width' : 300,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
 
                 <script type="text/javascript">
                     atOptions = {
-                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
                         'format' : 'iframe',
                         'height' : 250,
                         'width' : 300,
                         'params' : {}
                     };
                 </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
 
                 <script type="text/javascript">
                     atOptions = {
-                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
                         'format' : 'iframe',
                         'height' : 250,
                         'width' : 300,
                         'params' : {}
                     };
                 </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
             </div>
             <div class="platform col-sm-12">
                 <div class="card animar sem-fundo"></div>
@@ -114,36 +113,36 @@ $APP_URL = "/jogos/combo-memo/";
             <div class="col-sm-12">
                 <script type="text/javascript">
                     atOptions = {
-                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
                         'format' : 'iframe',
                         'height' : 250,
                         'width' : 300,
                         'params' : {}
                     };
                 </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
 
                 <script type="text/javascript">
                     atOptions = {
-                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
                         'format' : 'iframe',
                         'height' : 250,
                         'width' : 300,
                         'params' : {}
                     };
                 </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
 
                 <script type="text/javascript">
                     atOptions = {
-                        'key' : '7c9fa1bf142abd7f0c07dc45f57e4645',
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
                         'format' : 'iframe',
                         'height' : 250,
                         'width' : 300,
                         'params' : {}
                     };
                 </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/7c9fa1bf142abd7f0c07dc45f57e4645/invoke.js"></script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
             </div>
         </div>
         <?php
