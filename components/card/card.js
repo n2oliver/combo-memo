@@ -47,7 +47,7 @@ function embaralhar() {
     console.log(arr);
     let i = 0;
     for(let target of document.querySelectorAll(".card")) {
-        target.style.backgroundImage = `url("${APP_URL}components/card/${background[arr[i]]}.png")`;
+        target.style.backgroundImage = `url(/jogos/combo-memo/components/card/${background[arr[i]]}.png)`;
         i++;
     }
 }

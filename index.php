@@ -6,19 +6,7 @@
   <title>Combo-Memo - Jogo da Memória</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="icon" type="image/png" sizes="32x32" href="<?php $APP_URL ?>/components/card/coruja.png"/>
-
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/card.png" as="image" type="image/png" />
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/abelha.png" as="image" type="image/png" />
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/coruja.png" as="image" type="image/png" />
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/elefante.png" as="image" type="image/png" />
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/golfinho.png" as="image" type="image/png" />
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/koala.png" as="image" type="image/png" />
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/macaco.png" as="image" type="image/png" />
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/pinguim.png" as="image" type="image/png" />
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/card/tartaruga.png" as="image" type="image/png" />
-        <link rel="prefetch" href="<?= $APP_URL ?>/components/platform/wood.jpg" as="image" type="image/png" />
-
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= $APP_URL ?>/components/card/coruja.png"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">

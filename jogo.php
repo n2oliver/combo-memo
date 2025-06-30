@@ -156,7 +156,7 @@ $APP_URL = "/jogos/combo-memo/";
             </div>
         </div>
         <?php
-        include("../../noads-footer.php");
+        include("../../footer.php");
         ?>
     </body>
 </html>
