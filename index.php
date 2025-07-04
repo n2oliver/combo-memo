@@ -4,7 +4,7 @@
 <head>
   <?php include('/g-tags.php'); ?>
   <meta charset="UTF-8">
-  <title>Combo-Memo - Jogo da Memória</title>
+  <title>Combo-Memo - Jogo da Memória | n2oliver</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="<?= $APP_URL ?>/components/card/coruja.png"/>
