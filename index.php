@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+  <?php include('/g-tags.php'); ?>
   <meta charset="UTF-8">
   <title>Combo-Memo - Jogo da Memória</title>
 

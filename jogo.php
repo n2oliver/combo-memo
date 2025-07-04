@@ -4,16 +4,7 @@ $APP_URL = "/jogos/combo-memo/";
 <!DOCTYPE html>
 <html>
     <head>
-
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-687386749"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'AW-687386749');
-        </script>
+        <?php include('/g-tags.php'); ?>
 
         <link rel="icon" type="image/x-icon" href="<?= $APP_URL ?>components/card/coruja.png">
         <title>Combo-Memo</title>
