@@ -4,7 +4,7 @@ $APP_URL = "/jogos/combo-memo/";
 <!DOCTYPE html>
 <html>
     <head>
-        <?php include('/g-tags.php'); ?>
+        <?php include('../../g-tags.php'); ?>
 
         <link rel="icon" type="image/x-icon" href="<?= $APP_URL ?>components/card/coruja.png">
         <title>Combo-Memo | n2oliver</title>

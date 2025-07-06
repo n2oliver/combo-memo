@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <?php include('/g-tags.php'); ?>
+  <?php include('../../g-tags.php'); ?>
+  <?php include('../../richads.php'); ?>
   <meta charset="UTF-8">
   <title>Combo-Memo - Jogo da Memória | n2oliver</title>
 
