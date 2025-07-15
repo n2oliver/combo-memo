@@ -9,9 +9,7 @@ $APP_URL = "/jogos/combo-memo/";
         <link rel="icon" type="image/x-icon" href="<?= $APP_URL ?>components/card/coruja.png">
         <title>Combo-Memo | n2oliver</title>
         <meta charset="UTF-8"/>
-        <meta name="9fa1ddb83f9ca206d8f9a68ca7577612ed6a490b" content="9fa1ddb83f9ca206d8f9a68ca7577612ed6a490b" />
         <meta name="referrer" content="no-referrer-when-downgrade" />
-        
         <link rel="prefetch" href="<?= $APP_URL ?>components/card/card.png" as="image" type="image/png" />
         <link rel="prefetch" href="<?= $APP_URL ?>components/card/abelha.png" as="image" type="image/png" />
         <link rel="prefetch" href="<?= $APP_URL ?>components/card/coruja.png" as="image" type="image/png" />
@@ -44,8 +42,14 @@ $APP_URL = "/jogos/combo-memo/";
                 background-image: linear-gradient(black, darkslategrey, black);
                 background-size: cover;
             }
-            footer {
-                width: 1320px;
+            .score-label {
+                color: lightgreen;
+            }
+            .score-value {
+                color: white;
+            }
+            .error-value {
+                color: pink;
             }
         </style>
     </head>
@@ -57,42 +61,13 @@ $APP_URL = "/jogos/combo-memo/";
                     <button id="btnRestart">Reiniciar</button>
                 </div>
             </div>
-            <h3><span style="color: lightgreen">Pontuação máxima:</span> <span id="high-score">0</span>% de acertos | <span style="color: lightgreen">Acerto:</span> <span id="acerto">0</span>% <span style="color: pink"> | Erros:</span> <span id="erros">0</span></h3>
+            <h3>
+                <span class="score-label">Pontuação máxima:</span> <span id="high-score" class="score-value">0</span>% de acertos | 
+                <span class="score-label">Acerto:</span> <span id="acerto" class="score-value">0</span>% | 
+                <span class="error-value">Erros:</span> <span id="erros" class="error-value">0</span>
+            </h3>
         </header>
         <div class="mesa">
-            <div class="col-sm-12"><script type="text/javascript">
-                atOptions = {
-                    'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                    'format' : 'iframe',
-                    'height' : 250,
-                    'width' : 300,
-                    'params' : {}
-                };
-            </script>
-            <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
-
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
-
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
-            </div>
             <div class="platform col-sm-12">
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
@@ -110,40 +85,6 @@ $APP_URL = "/jogos/combo-memo/";
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
-            </div>
-            <div class="col-sm-12">
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
-
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
-
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
             </div>
         </div>
         <?php
