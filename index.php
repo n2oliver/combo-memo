@@ -81,6 +81,7 @@
   </style>
   <link rel="stylesheet" href="<?= $APP_URL ?>/components/card/card.css">
   <script src="<?= $APP_URL ?>/components/card/card.js"></script>
+  <script type='text/javascript' src='//pl27371375.profitableratecpm.com/af/e7/3c/afe73c790e73cadb95ef255203cc5f61.js'></script>
 </head>
 <body>
     <?php include('../../navbar.php'); ?>
@@ -106,6 +107,14 @@
 
   <a href="/jogos/combo-memo/jogo.php" class="btn btn-warning">Jogar Agora</a>
   </main>
+  <div class="text-light mx-auto mt-3 col-md-8 text-center">
+      Anúncios
+  </div>
+  <div class="container m-auto col-md-8 text-light">
+      <script async="async" data-cfasync="false" src="//pl27079464.profitableratecpm.com/297c1c3c46604eb55408b6261c6dd5b3/invoke.js"></script>
+      <div id="container-297c1c3c46604eb55408b6261c6dd5b3"></div>
+  </div>
+  <br>
   <?php include("../../footer.php"); ?>
     <script>
       const footer = document.querySelector('footer')

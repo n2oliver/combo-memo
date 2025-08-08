@@ -68,7 +68,41 @@ $APP_URL = "/jogos/combo-memo/";
             </h3>
         </header>
         <div class="mesa">
-            <div class="platform col-sm-12">
+            <div class="col-sm-1" style="text-align: center">
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
+
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
+
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
+            </div>
+            <div class="platform col-sm-10">
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
@@ -86,6 +120,41 @@ $APP_URL = "/jogos/combo-memo/";
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
             </div>
+            <div class="col-sm-1" style="text-align: center">
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
+
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
+
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                </script>
+                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
+            </div>
+            
         </div>
         <?php
         include("../../footer.php");
