@@ -52,6 +52,7 @@ $APP_URL = "/jogos/combo-memo/";
                 color: pink;
             }
         </style>
+        <script type="text/javascript" data-cfasync="false" src="/popads-monetization.js"></script>
     </head>
     <body>
         <header class="menu">

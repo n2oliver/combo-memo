@@ -82,6 +82,7 @@
   <link rel="stylesheet" href="<?= $APP_URL ?>/components/card/card.css">
   <script src="<?= $APP_URL ?>/components/card/card.js"></script>
   <script type='text/javascript' src='//pl27371375.profitableratecpm.com/af/e7/3c/afe73c790e73cadb95ef255203cc5f61.js'></script>
+  <script type="text/javascript" data-cfasync="false" src="/popads-monetization.js"></script>
 </head>
 <body>
     <?php include('../../navbar.php'); ?>
