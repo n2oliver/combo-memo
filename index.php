@@ -58,10 +58,10 @@
       color: whitesmoke !important;
       -webkit-text-stroke: 1px #000;
     }
-    .btn {
+    #jogar-agora {
       display: inline-block;
       padding: 12px 24px;
-      background-color: #4CAF50;
+      background-color: #f30012;
       color: white;
       border-radius: 6px;
       text-decoration: none;
@@ -108,7 +108,7 @@
     <main class="container m-auto p-2">
   <p class="m-auto">Teste sua memória e tente fazer o maior combo possível! Combine as cartas com o mínimo de erros para ganhar pontos extras.</p>
 
-  <a href="/jogos/combo-memo/jogo.php" class="btn btn-warning">Jogar Agora</a>
+  <a href="/jogos/combo-memo/jogo.php" id="jogar-agora" class="btn btn-warning">Jogar Agora</a>
   </main>
   <div class="text-light mx-auto mt-3 col-md-8 text-center">
       Anúncios
