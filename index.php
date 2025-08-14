@@ -87,6 +87,8 @@
         data-site="e5e969e1-3c42-400f-ab17-83f62c295b9a"
         src="https://cdn.megapush.com.br/MegaPush.js">
     </script>
+
+  <script src="/gtag_dispatcher.js"></script>
 </head>
 <body>
     <?php include('../../navbar.php'); ?>
@@ -152,6 +154,13 @@
           }, 300);
         }, 3000)
       }
+      document.addEventListener('DOMContentLoaded', ()=>{
+        if(document.referrer == '<?=$APP_URL?>/jogos' |
+            document.referrer == '<?=$APP_URL?>/jogos/'
+        ) {
+
+        }
+      });
     </script>
 </body>
 </html>
