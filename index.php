@@ -91,6 +91,7 @@
   <script src="/gtag_dispatcher.js"></script>
 </head>
 <body>
+<?php include("gtagmanager.php"); ?>
     <?php include('../../navbar.php'); ?>
     <script>
       const nav = document.querySelector('nav')
