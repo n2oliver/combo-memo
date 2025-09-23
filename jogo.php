@@ -55,7 +55,7 @@ $APP_URL = "/jogos/combo-memo/";
         <script type="text/javascript" data-cfasync="false" src="/popads-monetization.js"></script>
     </head>
     <body>
-<?php include("gtagmanager.php"); ?>
+<?php include("../../gtagmanager.php"); ?>
         <header class="menu">
             <div class="d-flex row align-content-center">
                 <h1>COMBO-MEMO</h1>

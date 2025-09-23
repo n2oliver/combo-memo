@@ -92,7 +92,7 @@
   <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 </head>
 <body>
-<?php include("gtagmanager.php"); ?>
+<?php include("../../gtagmanager.php"); ?>
     <?php include('../../navbar.php'); ?>
     <script>
       const nav = document.querySelector('nav')
