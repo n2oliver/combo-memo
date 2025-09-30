@@ -15,6 +15,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="../../styles-index.css">
     <link rel="stylesheet" href="../../sobre-mim.css"/>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
   <style>
     body {
@@ -90,6 +92,7 @@
 
   <script src="/gtag_dispatcher.js"></script>
   <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
+  <script type="text/javascript" data-cfasync="false" src="/js/abrir-janela.js"></script>
 </head>
 <body>
 <?php include("../../gtagmanager.php"); ?>
@@ -114,7 +117,7 @@
     <main class="container m-auto p-2">
   <p class="m-auto">Teste sua memória e tente fazer o maior combo possível! Combine as cartas com o mínimo de erros para ganhar pontos extras.</p>
 
-  <a href="/jogos/combo-memo/jogo.php" id="jogar-agora" class="btn btn-warning">Jogar Agora</a>
+  <a href="#" id="jogar-agora" class="btn btn-warning">Jogar Agora</a>
   </main>
   <div class="container m-auto col-md-8 text-light">
       <script async="async" data-cfasync="false" src="//playedsophomore.com/297c1c3c46604eb55408b6261c6dd5b3/invoke.js"></script>
@@ -153,11 +156,13 @@
         }, 3000)
       }
       document.addEventListener('DOMContentLoaded', ()=>{
-        if(document.referrer == '<?=$APP_URL?>/jogos' |
-            document.referrer == '<?=$APP_URL?>/jogos/'
-        ) {
-
-        }
+        $('#jogar-agora').click(()=>{
+            gtag('event', 'click_jogar_agora', {
+                'event_category': 'engagement',
+                'event_label': 'Combo-Memo - Clique no botão Jogar Agora'
+            });
+            abrirJanela('/jogos/combo-memo/jogo.php', 'https://playedsophomore.com/gi0n4mh5a?key=3e3ee1063d73d79e7ad7093df4d2a530');
+        });
       });
     </script>
 </body>
