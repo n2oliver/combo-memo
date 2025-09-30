@@ -156,12 +156,16 @@
         }, 3000)
       }
       document.addEventListener('DOMContentLoaded', ()=>{
+        gtag("event", "qualify_lead", {
+          currency: "USD",
+          value: 0.0004
+        });
         $('#jogar-agora').click(()=>{
-            gtag('event', 'click_jogar_agora', {
-                'event_category': 'engagement',
-                'event_label': 'Combo-Memo - Clique no botão Jogar Agora'
-            });
             abrirJanela('/jogos/combo-memo/jogo.php', 'https://playedsophomore.com/gi0n4mh5a?key=3e3ee1063d73d79e7ad7093df4d2a530');
+            gtag("event", "close_convert_lead", {
+              currency: "USD",
+              value: 0.0004
+            });
         });
       });
     </script>
