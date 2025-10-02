@@ -2,6 +2,8 @@
     background-size: contain;
     margin: 4px;
     width: 142px;
+    flex: 1 1 100px;
+    background-repeat: no-repeat;
 }
 .inverter {
     animation: inverter .5s ease;

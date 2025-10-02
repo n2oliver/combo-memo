@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if(counter > 2) {
                 counter = 0;
                 esconderTodasAsCartas();
-            } else {
+            } else if(!card.classList.contains('inverter')) {
                 if(event.target.dataset.acertou) {
                     return;
                 }

@@ -56,45 +56,28 @@ $APP_URL = "/jogos/combo-memo/";
     </head>
     <body>
 <?php include("../../gtagmanager.php"); ?>
+        <div id="frame" style="width: 100%;margin: auto;position: relative; z-index: 99998;">
+          <iframe data-aa='2412101' src='//acceptable.a-ads.com/2412101/?size=Adaptive'
+                            style='border:0; padding:0; width:70%; height:auto; overflow:hidden;display: block;margin: auto'></iframe>
+          <div style="width: 70%;margin:auto;position: absolute;left: 0;right: 0">
+            <a target="_blank" style="display:inline-block;font-size: 13px;color: #263238;padding: 4px 10px;background: #F8F8F9;text-decoration: none; border-radius: 0 0 4px 4px;" id="frame-link" href="https://aads.com/campaigns/new/?source_id=2412101&source_type=ad_unit&partner=2412101">Advertise here</a>
+          </div>
+        </div>
         <header class="menu">
             <div class="d-flex row align-content-center">
                 <h1>COMBO-MEMO</h1>
-                <div class="botoes">
-                    <button id="btnRestart">Reiniciar</button>
-                </div>
             </div>
             <h3>
                 <span class="score-label">Pontuação máxima:</span> <span id="high-score" class="score-value">0</span>% de acertos | 
                 <span class="score-label">Acerto:</span> <span id="acerto" class="score-value">0</span>% | 
                 <span class="error-value">Erros:</span> <span id="erros" class="error-value">0</span>
             </h3>
+            <div class="botoes">
+                <button id="btnRestart">Reiniciar</button>
+            </div>
         </header>
         <div class="mesa">
-            <div class="col-sm-1" style="text-align: center">
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
-
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
-
-            </div>
-            <div class="platform col-sm-10">
+            <div class="platform col-sm-10 m-auto">
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
@@ -112,30 +95,19 @@ $APP_URL = "/jogos/combo-memo/";
                 <div class="card animar sem-fundo"></div>
                 <div class="card animar sem-fundo"></div>
             </div>
-            <div class="col-sm-1" style="text-align: center">
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
-
-                <script type="text/javascript">
-                    atOptions = {
-                        'key' : 'b5463c03cd36f2b207d3e311906ba716',
-                        'format' : 'iframe',
-                        'height' : 250,
-                        'width' : 300,
-                        'params' : {}
-                    };
-                </script>
-                <script type="text/javascript" src="//www.highperformanceformat.com/b5463c03cd36f2b207d3e311906ba716/invoke.js"></script>
-            </div>
-            
+        </div>
+        
+        <div style="width: 100vw; text-align: center; background-image: linear-gradient(darkslategray, transparent);">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '29929d8720c37977a6ea64b1b7db2d02',
+                    'format' : 'iframe',
+                    'height' : 50,
+                    'width' : 320,
+                    'params' : {}
+                };
+            </script>
+            <script type="text/javascript" src="//playedsophomore.com/29929d8720c37977a6ea64b1b7db2d02/invoke.js"></script>
         </div>
         <?php
         include("../../footer.php");

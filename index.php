@@ -57,8 +57,8 @@
       margin: 1rem auto;
       max-width: 600px;
 
-      color: whitesmoke !important;
-      -webkit-text-stroke: 1px #000;
+      color: yellow !important;
+      -webkit-text-stroke: .7px #000;
     }
     #jogar-agora {
       display: inline-block;
