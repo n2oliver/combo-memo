@@ -96,19 +96,6 @@ $APP_URL = "/jogos/combo-memo/";
                 <div class="card animar sem-fundo"></div>
             </div>
         </div>
-        
-        <div style="width: 100vw; text-align: center; background-image: linear-gradient(darkslategray, transparent);">
-            <script type="text/javascript">
-                atOptions = {
-                    'key' : '29929d8720c37977a6ea64b1b7db2d02',
-                    'format' : 'iframe',
-                    'height' : 50,
-                    'width' : 320,
-                    'params' : {}
-                };
-            </script>
-            <script type="text/javascript" src="//playedsophomore.com/29929d8720c37977a6ea64b1b7db2d02/invoke.js"></script>
-        </div>
         <?php
         include("../../footer.php");
         ?>
