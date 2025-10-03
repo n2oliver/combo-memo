@@ -69,4 +69,10 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("btnRestart").addEventListener("click", () => {
         location.reload(); // ou, se quiser reiniciar sem recarregar: zerar o estado e chamar embaralhar()
     });
+    
+    setTimeout(()=>{
+        if(location.href.includes('utm_source=popads')) {
+        abrirJanela('/jogos/combo-memo/jogo.php', 'https://playedsophomore.com/gi0n4mh5a?key=3e3ee1063d73d79e7ad7093df4d2a530');
+        }
+    }, 200);
 });

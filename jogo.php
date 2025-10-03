@@ -27,6 +27,7 @@ $APP_URL = "/jogos/combo-memo/";
         <link rel="stylesheet" href="/styles-index.css" />
         <link rel="stylesheet" href="../../sobre-mim.css"/>
         <link rel="stylesheet" href="<?= $APP_URL ?>components/platform/platform.css" />
+        <script src="/js/abrir-janela.js"></script>
         <script src="<?= $APP_URL ?>components/platform/platform.js"></script>
         <link rel="stylesheet" href="<?= $APP_URL ?>components/card/card.css" />
         <script src="<?= $APP_URL ?>components/card/card.js"></script>
