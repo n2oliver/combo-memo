@@ -63,4 +63,4 @@ Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e dis
 
 ---
 
-Desenvolvido com ❤️ por [Óliver Silva Castilho](https://oliver.liveblog365.com)
+Desenvolvido com ❤️ por [Óliver S. Castilho](https://oliver.liveblog365.com)
