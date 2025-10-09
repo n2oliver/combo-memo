@@ -21,8 +21,6 @@ $APP_URL = "/jogos/combo-memo/";
         <link rel="prefetch" href="<?= $APP_URL ?>components/card/tartaruga.png" as="image" type="image/png" />
         <link rel="prefetch" href="<?= $APP_URL ?>components/platform/wood.jpg" as="image" type="image/png" />
         
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/styles-index.css" />
         <link rel="stylesheet" href="../../sobre-mim.css"/>
