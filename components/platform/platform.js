@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     setTimeout(()=>{
         if(location.href.includes('utm_source=popads')) {
-        abrirJanela('/jogos/combo-memo/jogo.php', 'https://playedsophomore.com/gi0n4mh5a?key=3e3ee1063d73d79e7ad7093df4d2a530');
+        abrirJanela('/jogos/combo-memo/jogo.php', 'https://playedsophomore.com/f8gjmtsq8?key=9d80849d2d1385a6c616fd86b50dcf7f');
         }
     }, 200);
 });
