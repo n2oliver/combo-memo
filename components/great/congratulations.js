@@ -25,6 +25,7 @@ function comemorar(texto) {
     if (!mensagemAtiva) {
         mensagemAtiva = document.createElement('div');
         mensagemAtiva.className = 'mensagem-central';
+        mensagemAtiva.style.zIndex = '999999';
         document.body.appendChild(mensagemAtiva);
     }
 
