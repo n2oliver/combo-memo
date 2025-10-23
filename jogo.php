@@ -2,7 +2,7 @@
 $APP_URL = "/jogos/combo-memo/";
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
     <head>
         <?php include('../../g-tags.php'); ?>
 
