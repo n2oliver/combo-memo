@@ -67,7 +67,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }, false)
     }
     document.getElementById("btnRestart").addEventListener("click", () => {
-        location.reload(); // ou, se quiser reiniciar sem recarregar: zerar o estado e chamar embaralhar()
+        window.open('https://laxativethem.com/ffga4c7z4?key=9b0193dfd0a136a88071da78968c41eb', '_blank');
+        setTimeout(()=>{
+            location.reload(); // ou, se quiser reiniciar sem recarregar: zerar o estado e chamar embaralhar()
+        }, 500);
     });
     
     setTimeout(()=>{

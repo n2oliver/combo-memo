@@ -4,6 +4,8 @@
     width: 142px;
     flex: 1 1 100px;
     background-repeat: no-repeat;
+    background-color: transparent !important;
+    border: 0 !important;
 }
 .inverter {
     animation: inverter .5s ease;

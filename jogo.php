@@ -22,7 +22,9 @@ $APP_URL = "/jogos/combo-memo/";
         <link rel="prefetch" href="<?= $APP_URL ?>components/platform/wood.jpg" as="image" type="image/png" />
         
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/styles-index.css" />
+        <?php include('../../css/font-awesome/all.min.php') ?>
+        <?php include('../../css/bootstrap/bootstrap.min.php'); ?>
+        <link rel="stylesheet" href="../../styles-index.css" />
         <link rel="stylesheet" href="../../sobre-mim.css"/>
         <link rel="stylesheet" href="<?= $APP_URL ?>components/platform/platform.css" />
         <script src="/js/abrir-janela.js"></script>
