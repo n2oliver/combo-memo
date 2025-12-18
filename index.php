@@ -102,6 +102,8 @@
 </script>
 </head>
 <body>
+    <script async src="https://appsha-pnd.ctengine.io/js/script.js?wkey=97NjKiTr7b"></script>
+
 <?php include("../../gtagmanager.php"); ?>
     <?php include('../../navbar.php'); ?>
     <script>
