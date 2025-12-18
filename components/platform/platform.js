@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }, false)
     }
     document.getElementById("btnRestart").addEventListener("click", () => {
-        window.open('https://laxativethem.com/ffga4c7z4?key=9b0193dfd0a136a88071da78968c41eb', '_blank');
+        window.open('https://laxativethem.com/vs23jmys5q?key=7c2ccbc5de27850e97ac9aae68ac23a4', '_blank');
         setTimeout(()=>{
             location.reload(); // ou, se quiser reiniciar sem recarregar: zerar o estado e chamar embaralhar()
         }, 500);
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     setTimeout(()=>{
         if(location.href.includes('utm_source=popads')) {
-        abrirJanela('/jogos/combo-memo/jogo.php', 'https://laxativethem.com/ffga4c7z4?key=9b0193dfd0a136a88071da78968c41eb');
+        abrirJanela('/jogos/combo-memo/jogo.php', 'https://laxativethem.com/vs23jmys5q?key=7c2ccbc5de27850e97ac9aae68ac23a4');
         }
     }, 200);
 });
