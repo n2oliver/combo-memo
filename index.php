@@ -77,6 +77,7 @@
         width: fit-content;
         border: 1px solid white;
         margin-bottom: 20px !important;
+        min-width: 0 !important;
     }
   </style>
   <link rel="stylesheet" href="<?= $APP_URL ?>/components/card/card.css">
@@ -122,12 +123,10 @@
       <img onclick="virar(event)" src="/jogos/combo-memo/components/card/card.png" alt="Combo-Memo" class="card animar sem-fundo" id="card"/>
       <img onclick="virar(event)" src="/jogos/combo-memo/components/card/card.png" alt="Combo-Memo" class="card animar sem-fundo" id="card"/>
     </div>
+    <main class="container m-auto ">
+      <a href="#" id="jogar-agora" class="btn btn-warning">Jogar Agora</a><p class="m-auto">Teste sua memória e tente fazer o maior combo possível! Combine as cartas com o mínimo de erros para ganhar pontos extras.</p>
+    </main>
   </header>
-    <main class="container m-auto p-2">
-  <p class="m-auto">Teste sua memória e tente fazer o maior combo possível! Combine as cartas com o mínimo de erros para ganhar pontos extras.</p>
-
-  <a href="#" id="jogar-agora" class="btn btn-warning">Jogar Agora</a>
-  </main>
   <br>
   <?php include("../../footer.php"); ?>
     <script>
