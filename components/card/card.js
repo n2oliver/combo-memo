@@ -9,8 +9,16 @@ const background = {
     6: "pinguim",
     7: "tartaruga",
 }
+
+function tocarAudio(target) {
+    if(!target.classList.contains('inverter')) {
+        document.querySelector('audio').play();
+    }
+}
+
 function virarCarta(target) {
     target.classList.remove("inverter");
+    tocarAudio(target);
     target.classList.add("inverter");
     setTimeout(()=>{
         target.classList.remove("sem-fundo");

@@ -66,6 +66,9 @@ $APP_URL = "/jogos/combo-memo/";
         </script>
     </head>
     <body>
+        <audio preload="auto" hidden>
+            <source src="/jogos/combo-memo/components/song/turn.mp3" type="audio/mpeg">
+        </audio>
 <?php include("../../gtagmanager.php"); ?>
         <div id="frame" style="width: 100%;margin: auto;position: relative; z-index: 99998;">
           <iframe data-aa='2412101' src='//acceptable.a-ads.com/2412101/?size=Adaptive'

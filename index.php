@@ -103,6 +103,19 @@
 </script>
 </head>
 <body>
+  <div style="width: 64px; height: 64px; background-image: url(../linhaamarela/icons8-alto-falante-100.png); background-size: contain; background-repeat: no-repeat; background-position: center"></div>
+  <audio preload="auto" hidden loop>
+    <source src="/jogos/combo-memo/components/song/combo-memo-theme.mp3" type="audio/mpeg">
+  </audio>
+  <script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+      function tocarAudio() {
+        document.querySelector('audio').play();
+        document.removeEventListener('click', tocarAudio);
+      }
+      document.addEventListener('click', tocarAudio);
+    });
+  </script>
     <script async src="https://appsha-pnd.ctengine.io/js/script.js?wkey=97NjKiTr7b"></script>
 
 <?php include("../../gtagmanager.php"); ?>
