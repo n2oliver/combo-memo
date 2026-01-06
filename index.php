@@ -174,7 +174,7 @@
           value: 0.0004
         });
         $('#jogar-agora').click(()=>{
-            abrirJanela('/jogos/combo-memo/jogo.php', 'https://laxativethem.com/vs23jmys5q?key=7c2ccbc5de27850e97ac9aae68ac23a4');
+            window.location.href = '/jogos/combo-memo/jogo.php';
             gtag("event", "close_convert_lead", {
               currency: "USD",
               value: 0.0004
