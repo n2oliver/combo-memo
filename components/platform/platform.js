@@ -67,15 +67,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }, false)
     }
     document.getElementById("btnRestart").addEventListener("click", () => {
-        window.open('https://laxativethem.com/vs23jmys5q?key=7c2ccbc5de27850e97ac9aae68ac23a4', '_blank');
+        abrirSmartlinkUmaVez();
         setTimeout(()=>{
             location.reload(); // ou, se quiser reiniciar sem recarregar: zerar o estado e chamar embaralhar()
         }, 500);
     });
-    
-    setTimeout(()=>{
-        if(location.href.includes('utm_source=popads')) {
-        abrirJanela('/jogos/combo-memo/jogo.php', 'https://laxativethem.com/vs23jmys5q?key=7c2ccbc5de27850e97ac9aae68ac23a4');
-        }
-    }, 200);
 });

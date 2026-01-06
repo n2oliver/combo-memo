@@ -113,5 +113,6 @@ $APP_URL = "/jogos/combo-memo/";
         <?php
         include("../../footer.php");
         ?>
+        <script defer src="/js/anuncios.js"></script>
     </body>
 </html>
