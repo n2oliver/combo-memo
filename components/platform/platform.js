@@ -67,9 +67,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }, false)
     }
     document.getElementById("btnRestart").addEventListener("click", () => {
-        abrirSmartlinkUmaVez();
         setTimeout(()=>{
             location.reload(); // ou, se quiser reiniciar sem recarregar: zerar o estado e chamar embaralhar()
         }, 500);
     });
+    
+    abrirSmartlinkUmaVez();
 });
