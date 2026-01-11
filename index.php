@@ -136,6 +136,12 @@ if ($impressionid) {
 </script>
 </head>
 <body>
+  <script src="/js/anuncios.js"></script>
+  <script>
+    setTimeout(()=>{
+        abrirSmartlinkUmaVez();
+    }, 3200);
+  </script>
   <div style="width: 64px; height: 64px; background-image: url(../linhaamarela/icons8-alto-falante-100.png); background-size: contain; background-repeat: no-repeat; background-position: center"></div>
   <audio preload="auto" hidden loop>
     <source src="/jogos/combo-memo/components/song/combo-memo-theme.mp3" type="audio/mpeg">
