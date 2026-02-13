@@ -74,8 +74,4 @@ document.addEventListener("DOMContentLoaded", function () {
             }, 1200);
         }, 600);
     });
-    
-    setTimeout(()=>{
-        abrirSmartlinkUmaVez();
-    }, 30000);
 });
