@@ -134,7 +134,6 @@ if ($impressionid) {
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-    <script src="https://laxativethem.com/f0/b1/79/f0b17922dcf7861be67a02cba8a9b7ee.js"></script>
 </head>
 <body>
   <div style="width: 64px; height: 64px; background-image: url(../linhaamarela/icons8-alto-falante-100.png); background-size: contain; background-repeat: no-repeat; background-position: center"></div>
