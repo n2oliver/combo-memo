@@ -1,3 +1,4 @@
+[DEPRECATED]
 # 🃏 Combo-Memo
 
 **Combo-Memo** é um jogo da memória de cartas para navegador, com tema de animais fofos, desenvolvido em PHP, JavaScript e CSS. O objetivo é combinar pares de cartas idênticas no menor número de tentativas possível. Ideal para todas as idades!
